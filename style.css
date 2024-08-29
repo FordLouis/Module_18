@@ -91,15 +91,6 @@ body{
     justify-content: center;
     gap: 15rem;
 }
-.home-content{
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    text-align: left;
-    justify-content: center;
-    margin-top: 3rem;
-}
-
 
 span{
  color: var(--main-color);
@@ -143,6 +134,7 @@ font-size: 3.4rem;
 }
 .home-content{
     grid-area:bottom;
+    outline: 1px solid red;
 }
 .social-media{
     grid-area:bottom;
@@ -153,6 +145,9 @@ font-size: 3.4rem;
 
 .home-img{
     border-radius: 50%;
+    vertical-align: text-top;
+    outline: 1px solid red;
+
 }
 .home-img img{
     position: relative;
@@ -238,10 +233,6 @@ footer ul li a{
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
-    margin-right: 15px;
-    min-width: 150px;
-    text-align: center;
-    flex-direction: row;
     background: var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
     border-radius: 4rem;
@@ -251,7 +242,7 @@ footer ul li a{
     letter-spacing: 0.1rem;
     font-weight: 600;
     transition: 0.3s ease-in-out;
-    cursor: pointer;
+    cursor: pointer;   
     
 }
 
@@ -262,7 +253,7 @@ footer ul li a{
 .btn-group{
     display: flex;
     align-items: center;
-    gap: 10.5rem;
+    gap: 9.5rem;
 }
 
 .btn-group{
